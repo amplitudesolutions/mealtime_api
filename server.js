@@ -19,8 +19,6 @@ var transporter = nodemailer.createTransport(ses({
 	secretAccessKey: process.env.MEALTIME_AWS_SECRET_KEY
 }));
 
-// SEND GRID KEY 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
-
 // configure app to use bodyParser()
 // this will let us get the data from a POST
 app.use(bodyParser.urlencoded({ extended: true }));
